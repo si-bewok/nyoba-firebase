@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nyoba Firebase 9</title>
+  </head>
+  <body>
+    <h1>Markicob fitur-fitur pada Firebase 9</h1>
+
+    <hr />
+
+    <h2>Firebase Realtime Database</h2>
+
+    <form class="add">
+      <h3>Form Add Produk</h3>
+
+      <label for="produk">Nama Produk : </label>
+      <input type="text" name="produk" required />
+
+      <label for="merek">Merek Produk : </label>
+      <input type="text" name="merek" required />
+
+      <label for="jumlah">Jumlah : </label>
+      <input type="number" name="jumlah" required />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <hr />
+
+    <form class="update">
+      <h3>Form Update Produk</h3>
+
+      <label for="id">ID Produk : </label>
+      <input type="number" name="id" />
+
+      <label for="jumlah">Jumlah : </label>
+      <input type="number" name="jumlah" required />
+
+      <button type="submit">Update</button>
+    </form>
+
+    <hr />
+
+    <form class="delete">
+      <h3>Form Delete Produk</h3>
+
+      <label for="id">ID Produk : </label>
+      <input type="number" name="id" />
+
+      <button type="submit">Delete</button>
+    </form>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
